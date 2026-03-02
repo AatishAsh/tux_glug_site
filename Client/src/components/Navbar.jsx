@@ -1,21 +1,36 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const activeClass = ({ isActive }) =>
+    isActive ? "text-green-400" : "hover:text-green-400";
+
   return (
     <nav className="flex justify-between items-center py-6">
       {/* Logo */}
       <h1 className="text-green-400 text-xl font-bold">
-        &gt; RGCET FOSS CELL // TUX GLUG
+        &gt; RGCET FOSS // TUX GLUG
       </h1>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex space-x-8">
-        <Link to="/" className="hover:text-green-400">Home</Link>
-        <Link to="/events" className="hover:text-green-400">Events</Link>
-        <Link to="/about" className="hover:text-green-400">About</Link>
+        <NavLink to="/" className={activeClass} end>
+          Home
+        </NavLink>
+
+        <NavLink to="/blogs" className={activeClass}>
+          Blogs
+        </NavLink>
+
+        <NavLink to="/events" className={activeClass}>
+          Events
+        </NavLink>
+
+        <NavLink to="/about" className={activeClass}>
+          About
+        </NavLink>
       </div>
 
       {/* Hamburger Button */}
@@ -29,15 +44,25 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="absolute top-20 right-6 bg-black border border-gray-800 rounded-lg p-6 flex flex-col space-y-4 md:hidden shadow-lg">
-          <Link to="/" onClick={() => setIsOpen(false)} className="hover:text-green-400">
+          <NavLink to="/" onClick={() => setIsOpen(false)} className={activeClass} end>
             Home
-          </Link>
-          <Link to="/events" onClick={() => setIsOpen(false)} className="hover:text-green-400">
+          </NavLink>
+
+          <NavLink
+            to="/blogs"
+            onClick={() => setIsOpen(false)}
+            className={activeClass}
+          >
+            Blogs
+          </NavLink>
+
+          <NavLink to="/events" onClick={() => setIsOpen(false)} className={activeClass}>
             Events
-          </Link>
-          <Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-green-400">
+          </NavLink>
+
+          <NavLink to="/about" onClick={() => setIsOpen(false)} className={activeClass}>
             About
-          </Link>
+          </NavLink>
         </div>
       )}
     </nav>
