@@ -3,14 +3,17 @@ import sessions from "../data/sessions";
 
 export default function Sessions() {
 
+  // Sort sessions by publish date (newest first)
   const sortedSessions = [...sessions].sort(
     (a, b) => new Date(b.publishedAt) - new Date(a.publishedAt)
   );
 
+  // Separate upcoming and past
   const upcomingSession = sortedSessions.find(s => s.isUpcoming);
   const pastSessions = sortedSessions.filter(s => !s.isUpcoming);
 
-  const [selectedSession, setSelectedSession] = useState(upcomingSession);
+  // Default selected session → upcoming (if exists)
+  const [selectedSession, setSelectedSession] = useState(upcomingSession || sortedSessions[0]);
 
   return (
     <section className="py-24">
@@ -21,16 +24,25 @@ export default function Sessions() {
 
           {selectedSession && (
             <>
-              <img
-                src={selectedSession.image}
-                alt={selectedSession.title}
-                className="w-full h-[400px] object-cover rounded-xl mb-8"
-              />
+              {/* IMAGE BLOCK */}
+              <div className="mb-8">
+                <img
+                  src={selectedSession.image}
+                  alt={selectedSession.title}
+                  className={`rounded-xl ${
+                    selectedSession.isUpcoming
+                      ? "w-full h-auto object-contain max-w-[900px] mx-auto"
+                      : "w-full h-[400px] object-cover"
+                  }`}
+                />
+              </div>
 
+              {/* TITLE */}
               <h1 className="text-4xl text-green-400 mb-4">
                 {selectedSession.title}
               </h1>
 
+              {/* DETAILS */}
               <p className="text-gray-400 mb-2">
                 <strong>Speaker:</strong> {selectedSession.speaker}
               </p>
@@ -43,6 +55,7 @@ export default function Sessions() {
                 <strong>Time:</strong> {selectedSession.time}
               </p>
 
+              {/* CONTENT */}
               <div className="text-gray-300 leading-8 whitespace-pre-line">
                 {selectedSession.content}
               </div>
@@ -55,21 +68,25 @@ export default function Sessions() {
         <div className="lg:col-span-1">
           <div className="sticky top-24 bg-black border border-gray-800 rounded-xl p-6 max-h-[80vh] overflow-y-auto">
 
-            {/* Upcoming */}
+            {/* UPCOMING SECTION */}
             {upcomingSession && (
               <>
                 <h2 className="text-green-400 mb-4">Upcoming Session</h2>
 
                 <button
                   onClick={() => setSelectedSession(upcomingSession)}
-                  className="block text-left text-gray-300 hover:text-green-400 mb-6 transition"
+                  className={`block text-left mb-6 transition ${
+                    selectedSession?.id === upcomingSession.id
+                      ? "text-green-400"
+                      : "text-gray-300 hover:text-green-400"
+                  }`}
                 >
                   {upcomingSession.title}
                 </button>
               </>
             )}
 
-            {/* Past Sessions */}
+            {/* PAST SESSIONS */}
             <h2 className="text-green-400 mb-4">Past Sessions</h2>
 
             <div className="space-y-3">
@@ -77,7 +94,11 @@ export default function Sessions() {
                 <button
                   key={session.id}
                   onClick={() => setSelectedSession(session)}
-                  className="block text-left text-gray-400 hover:text-green-400 transition"
+                  className={`block text-left transition ${
+                    selectedSession?.id === session.id
+                      ? "text-green-400"
+                      : "text-gray-400 hover:text-green-400"
+                  }`}
                 >
                   {session.title}
                 </button>
