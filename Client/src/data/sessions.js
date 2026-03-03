@@ -12,7 +12,7 @@ const sessions = [
         time: "9 March 2026 | 14:00 15:00",
         publishedAt: "2026-03-03",
         isUpcoming: true,
-        image: "/tux_glug_site/images/foss_notfound.jpg",
+        image: "/tux_glug_site/images/upcoming-poster.jpeg",
         content: `
 This upcoming session focuses on How India went from 12 competing telcos to 3 major players.
 
