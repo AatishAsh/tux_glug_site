@@ -3,7 +3,7 @@ const events = [
     id: "inittux",
     title: "InitTux",
     author: "MOHAMED B SIRAJUDDEEN",
-    readTime: "5 min read",
+    readTime: "2 min read",
     publishedAt: "2025-05-02",
     image: "/tux_glug_site/images/event-imgs//events-inittux.jpg",
     excerpt:
