@@ -1,27 +1,19 @@
 const blogs = [
 
   {
-    id: "introduction-to-foss",
-    title: "Introduction to Free and Open Source Software",
-    author: "Tux GLUG Team",
+    id: "third-organizational-conference",
+    title: "3rd Organizational Conference: A Recap",
+    author: "AATISH ASHOK",
     readTime: "5 min read",
-    publishedAt: "2026-03-20",
-    image: "/images/blog-images/foss-intro.jpg",
+    publishedAt: "2026-03-01",
+    image: "/tux_glug_site/images/blog-imgs/3rdOrganizationalConf.jpeg",
     excerpt:
-      "An introduction to the philosophy of Free and Open Source Software and why it plays a crucial role in modern computing.",
+      "Loading...",
     content: `
-Free and Open Source Software (FOSS) represents a philosophy where software
-is freely available for anyone to use, study, modify, and distribute.
-
-The movement started in the early 1980s with Richard Stallman and the
-GNU Project. The goal was to ensure that software users retain control
-over the technology they use.
-
-Today, open-source software powers much of the modern internet including
-Linux servers, cloud platforms, and development tools.
-
-This blog explores how FOSS enables innovation, transparency, and
-community-driven development.
+Building content...
+loading words...
+Running Terminal...
+Rebooting system...
 `
   },
 
@@ -30,23 +22,36 @@ community-driven development.
     title: "FOSSMeet 2025: A Recap",
     author: "MOHAMED B SIRAJUDDEEN",
     readTime: "5 min read",
-    publishedAt: "2026-03-20",
-    image: "/images/blog-images/foss-intro.jpg",
+    publishedAt: "2025-03-16",
+    image: "/tux_glug_site/images/blog-imgs/FOSSMeet'25.jpg",
     excerpt:
-      "An introduction to the philosophy of Free and Open Source Software and why it plays a crucial role in modern computing.",
+      "FOSSMeet 2025 at NITC was an unforgettable introduction to the wider open-source community, filled with insightful talks, community interactions, and memorable journeys with friends.",
     content: `
-Free and Open Source Software (FOSS) represents a philosophy where software
-is freely available for anyone to use, study, modify, and distribute.
+In March 2025, I had the opportunity to attend FOSSMeet 2025 at the National Institute of Technology (NIT) Calicut, one of India’s longest-running conferences dedicated to Free and Open Source Software. The event was particularly special because it marked 20 years of the FOSSMeet conference, bringing together developers, contributors, students, and enthusiasts from across the country to celebrate open technology and collaborative innovation.
 
-The movement started in the early 1980s with Richard Stallman and the
-GNU Project. The goal was to ensure that software users retain control
-over the technology they use.
+The conference spanned three days, filled with talks, discussions, and workshops that explored various dimensions of open-source technology. From software and hardware to digital policy and ethics, the sessions highlighted how open technologies continue to shape the modern digital world.
 
-Today, open-source software powers much of the modern internet including
-Linux servers, cloud platforms, and development tools.
+The opening sessions reflected on the history and evolution of FOSSMeet, tracing its journey since its beginnings in 2005. Speakers discussed how the event grew from a small community gathering into one of the most prominent open-source conferences in India, helping thousands of students and developers engage with the FOSS ecosystem.
 
-This blog explores how FOSS enables innovation, transparency, and
-community-driven development.
+Over the course of the conference, a wide range of topics were explored. There were discussions on open-source hardware development, highlighting how open design principles are enabling innovation in electronics and embedded systems. Another set of sessions focused on FOSS policies and digital governance, exploring how governments and institutions can adopt open technologies to improve transparency and sustainability.
+
+Technical talks covered areas such as Linux distribution release engineering, providing insight into the complex processes behind maintaining and releasing Linux distributions. Sessions on open-source contribution encouraged participants to actively engage with community projects, explaining how newcomers can begin contributing to real-world software development.
+
+One of the highlights of the event for me was seeing familiar faces from the Free Software Hardware Movement (FSHM) community. It was enjoyable to spend time together, get to know each other better, and share experiences with people who share the same interest in open technologies.
+
+I attended the conference along with my close friend Sandeep, and the experience itself turned into an adventure. The hostel we stayed in at NIT Calicut felt almost like a maze — navigating through the corridors and trying to find our rooms became a fun challenge in itself.
+
+It was also exciting to see that Mr. Kamalavelan, the Secretary of FSHM, was one of the speakers at the conference. Watching someone from our own community contribute to the event as a speaker made the experience even more meaningful.
+
+Beyond the talks and workshops, the conference atmosphere itself was vibrant. The open discussions created spaces where participants could freely exchange ideas, debate technological challenges, and share perspectives about the future of open software and hardware.
+
+However, some of the most memorable moments were actually outside the conference halls. The train journey to and from Calicut turned into one of the most enjoyable parts of the entire trip. Throughout the night, we spent time playing games, talking about technology, and simply enjoying the company of each other.
+
+On the return journey, something unexpected happened — our favourite faculty member, Mr. Rajan Babu, boarded the train from Coimbatore. What followed was a long and engaging night conversation where he got to reconnect with our college alumni Jagadeesh, who has been active in the FOSS community for years. Listening to their discussions about open-source culture, community building, and technology was both inspiring and insightful.
+
+Looking back, FOSSMeet 2025 was more than just a conference. It was an experience that brought together technology, community, learning, and friendship. The event not only deepened my understanding of open-source technologies but also strengthened my connection with the broader FOSS community.
+
+Attending FOSSMeet made it clear that open source is not just about software — it is about people, collaboration, and the shared belief that knowledge should be open and accessible to everyone.
 `
   },
 
