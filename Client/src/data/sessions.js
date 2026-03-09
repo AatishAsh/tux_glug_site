@@ -5,22 +5,20 @@
 
 const sessions = [
     {
-        id: "linux-security-session",
-        title: "The Telecom Transformation",
-        speaker: "RAVI KUMAR M S",
+        id: "loading",
+        title: "Loading...",
+        speaker: "Unknown",
         location: "Library",
         time: "9 March 2026 | 14:00 15:00",
-        publishedAt: "2026-03-09",
+        publishedAt: "2026-03-16",
         isUpcoming: true,
-        image: "/tux_glug_site/images/upcoming-poster.jpeg",
+        image: "/tux_glug_site/images/foss_notfound.jpg",
         content: `
-This upcoming session focuses on How India went from 12 competing telcos to 3 major players.
-
-Topics include:
-• Telecom Industry
-• The politics behind it
-• Risks of 3 players
-• How to escape this unfair game
+Initializing session...
+Processing data...
+Fetching speaker information...
+Configuring session details...
+Compiling content...
 `
     },
 
@@ -28,6 +26,21 @@ Topics include:
     //* ------------------------------------------------------------------------------------------------------------------
     // PAST SESSIONS
     //* ------------------------------------------------------------------------------------------------------------------
+    {
+        id: "the-telecom-transformation",
+        title: "The Telecom Transformation",
+        speaker: "RAVI KUMAR MS",
+        location: "Library",
+        time: "9 March 2026 | 14:00 - 15:00",
+        publishedAt: "2026-03-09",
+        isUpcoming: false,
+        image: "/tux_glug_site/images/session-imgs/sessions-day5.jpeg",
+        content: `
+        Processing Session data...
+
+`
+    },
+    
     {
         id: "tmux-vim-make",
         title: "Open Source Tools",
