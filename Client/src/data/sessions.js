@@ -10,7 +10,7 @@ const sessions = [
         speaker: "Unknown",
         location: "Library",
         time: "9 March 2026 | 14:00 15:00",
-        publishedAt: "2026-03-16",
+        publishedAt: "2026-03-23",
         isUpcoming: true,
         image: "/tux_glug_site/images/foss_notfound.jpg",
         content: `
