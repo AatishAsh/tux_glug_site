@@ -194,15 +194,16 @@ export default function About() {
             {/*JOINT-SECRETARY */}
             <div className="border border-gray-800 rounded-xl p-6 hover:border-green-400 transition duration-300">
               <img
-                src="/tux_glug_site/images/office-bearers/Pragadeeswar.jpeg"
+                src="/tux_glug_site/images/office-bearers/RithikRathan.jpeg"
                 alt="Joint-Secretary"
                 className="w-32 h-32 mx-auto rounded-full object-cover mb-6"
               />
               <h3 className="text-xl text-green-400 mb-2">
-                PRAGADEESWAR S
+                RITHIK RATHAN C
               </h3>
               <p className="text-gray-400 text-sm">
-                Joint Secretary
+                Joint Secretary <br></br>
+                Developer Team Head
               </p>
               <p className="text-gray-500 text-sm">
                 CSE — Batch 2023–2027
@@ -307,11 +308,10 @@ export default function About() {
                 className="w-32 h-32 mx-auto rounded-full object-cover mb-6"
               />
               <h3 className="text-xl text-green-400 mb-2">
-                RITHIK RATHAN C
+                PRAGADEESWAR S
               </h3>
               <p className="text-gray-400 text-sm">
-                Executive Member <br></br>
-                Developer Team Head
+                Executive Member
               </p>
               <p className="text-gray-500 text-sm">
                 CSE — Batch 2023–2027
