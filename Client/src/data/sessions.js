@@ -38,25 +38,19 @@ Compiling content...
         content: `
         The session titled “The Telecom Transformation” explored the dramatic changes in India’s telecom industry over the past two decades. It focused on how the market evolved from having more than a dozen competing telecom companies to just a few dominant players, the economic pressures that caused this consolidation, and how India eventually became the country with some of the cheapest internet services in the world.
         
-
 In the early days of mobile connectivity in India, the telecom sector was highly competitive. At one point, 12 major telecom operators were competing for subscribers across the country.
 
 Some of the major players included:
 
 • Bharti Airtel – One of the earliest private telecom companies in India and still one of the strongest players today.
-
 • Vodafone India – A major international telecom brand operating in India.
-
 • Idea Cellular – A popular telecom provider that later merged with Vodafone.
-
 • BSNL – A government-owned telecom operator with nationwide presence.
-
 • MTNL – A public sector telecom provider operating mainly in Delhi and Mumbai.
 
 During this period, telecom companies competed aggressively by expanding network coverage, lowering call rates, and introducing new plans to attract customers.
 
 Between 2008 and 2010, the telecom sector experienced explosive growth. Mobile phone usage increased rapidly, and telecom companies raced to capture market share.
-
 
 By 2015, the industry had reached its peak in terms of subscriber growth and market activity. However, the intense competition also created financial pressure on many telecom operators.
 
@@ -65,13 +59,9 @@ Despite the rapid growth, many telecom companies struggled to survive in such a 
 Some notable examples include:
 
 • Tata Docomo – Known for innovative plans, but its consumer business was eventually acquired by Airtel.
-
 • Reliance Communications – Once a major telecom player, but declared bankruptcy in 2019.
-
 • Aircel – Extremely popular in South India before filing for bankruptcy in 2018.
-
 • Videocon Telecom – Sold its spectrum and exited the telecom market.
-
 
 Another major challenge faced by telecom companies was the issue of Adjusted Gross Revenue (AGR).
 
@@ -91,13 +81,10 @@ This aggressive pricing forced other telecom operators to drastically reduce the
 
 After years of mergers, bankruptcies, and acquisitions, the telecom industry consolidated into just a few major players.
 
-
 Today, the market is dominated by:
 
 • Reliance Jio
-
 • Bharti Airtel
-
 • Vodafone Idea
 
 This structure is often described as an oligopoly, where only a small number of companies control the majority of the market. Some experts even predict that the sector may eventually move toward a duopoly, dominated mainly by Jio and Airtel.
