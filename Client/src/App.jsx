@@ -8,6 +8,7 @@ import EventDetails from "./pages/EventDetails";
 import Sessions from "./pages/Sessions";
 import SessionDetails from "./pages/SessionDetails";
 import About from "./pages/About";
+import Bootcamp from "./pages/Bootcamp";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/sessions" element={<Sessions />} />
           <Route path="/sessions/:id" element={<SessionDetails />} />
           <Route path="/about" element={<About />} />
+          <Route path="/bootcamp" element={<Bootcamp />} />
         </Routes>
       </div>
       <Footer />

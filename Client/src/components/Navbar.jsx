@@ -88,6 +88,14 @@ export default function Navbar() {
 			</NavLink>
 
 			<NavLink
+			to="/bootcamp"
+			onClick={() => setIsOpen(false)}
+			className={activeClass}
+			>
+			Bootcamp
+			</NavLink>
+
+			<NavLink
 			to="/about"
 			onClick={() => setIsOpen(false)}
 			className={activeClass}
